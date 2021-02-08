@@ -1,0 +1,186 @@
+body {
+    background-color: $color-primary;
+    font-family:  Montserrat;
+    
+
+}
+
+
+header {
+
+
+    @media screen and (max-width: 1024px) {
+        width: 7vw;
+        background-color: #2d2f33;
+
+        display: flex;
+        align-items: flex-start;
+    }
+
+    @media screen and (max-width: 768px) {
+        align-items: flex-end;
+    }
+
+    @media screen and (max-width: 475px) {
+       width: 10vw;
+    }
+
+}
+
+main {
+    margin-left: 30vw;
+    flex: 1;
+    @media screen and (max-width: 1024px) {
+        margin-left: 10vw;
+    }
+  
+    @media screen and (max-width: 475px) {
+        margin-left: 15vw;
+    }
+    
+}
+
+.section-home {
+    background: url('../img/Carres-Header.png') no-repeat 0 0;
+    background-position-x: 134%;
+    background-position-y: 100%;
+    background-size: 72%;
+    padding-top: 6.8rem;
+    padding-bottom: 30%;
+
+    @media screen and (max-width: 1440px) {
+        background-position-x: 143%;
+        background-position-y: 97%;
+    }
+
+    @media screen and (max-width: 1370px) {
+        background-position-x: 157%;
+        background-position-y: 95%;
+    }
+
+    @media screen and (max-width: 1280px) {
+        background-position-x: 149%;
+    }
+
+    @media screen and (max-width: 1115px) {
+        background-position-x: 180%;
+        background-position-y: 93%;
+    }
+
+    @media screen and (max-width: 1024px) {
+        background-position-x: 158%;
+        background-position-y: 95%;
+    }
+
+    @media screen and (max-width: 768px) {
+        background-position-x: 158%;
+        background-position-y: 95%;
+    }
+
+    @media screen and (max-width: 750px) {
+        padding-top: 20px;
+        background-image: none;
+    }
+
+    @media screen and (max-width: 680px) {
+       padding-bottom: 20%;
+    }
+
+
+}
+
+.section-t-shaped {
+    position: relative;
+    padding-top: 5rem;
+    top: -16rem;
+
+    @media screen and (max-width: 680px) {
+       top: 25%;
+    }
+
+    @media screen and (max-width: 600px) {
+        top: 0px;
+     }
+
+}
+
+.section-project {
+    position: relative;
+    padding-top: 5rem;
+    padding-bottom: 10rem;
+
+    @media screen and (max-width: 768px) {
+        padding-bottom: 0rem;
+    }
+
+    @media screen and (max-width: 680px) {
+        padding-bottom: 15rem;
+    }
+
+    @media screen and (max-width: 475px) {
+        padding-top: 15rem;
+    }
+
+
+
+    
+   
+
+
+
+    .container {
+        display: flex;
+
+        @media screen and (max-width: 1024px) {
+            max-width: 85vw;
+         }
+
+        @media screen and (max-width: 680px) {
+            flex-direction: column;
+            align-items: flex-start;
+         }
+
+
+        &:first-of-type {
+            margin-top: 4.1rem ;
+        }
+
+
+    }
+
+}
+
+.footer {
+    background-image: url('../img/carre-footer.png');
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position-y: 27%;
+    background-position-x: 130%;
+    position: absolute;
+    left: 0 ;
+    width: 100%;
+    padding-bottom: 24.4rem;
+    background-color: #242629;
+
+    @media screen and (max-width: 1024px) {
+        background-color: transparent;
+        padding-bottom: 10rem;
+    }
+
+    @media screen and (max-width: 800px) {
+        background-image: none;
+    }
+
+        .container {
+            margin-left: 30vw;
+
+            @media screen and (max-width: 1024px) {
+                margin-left: 10vw;
+            }
+          
+            @media screen and (max-width: 475px) {
+                margin-left: 15vw;
+            }
+        }
+}
+

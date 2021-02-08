@@ -1,0 +1,247 @@
+
+.footer {
+
+    .back {
+        background-color: #7A5AF0;
+
+
+        @media screen and (max-width: 680px) {
+            border-radius: 10px;
+        }  
+        
+    }
+
+    &__img {
+        width: 36.8rem;
+        height: 46.2rem;
+
+        @media screen and (max-width: 1280px) {
+            width: 308px;
+            height: 355.63px;
+        }   
+
+        @media screen and (max-width: 1115px) {
+            width: 257px;
+            height: 323.4px;
+        }   
+
+        @media screen and (max-width: 800px) {
+            width: 244.15px;
+            height: 307.23px;
+        }   
+
+
+        @media screen and (max-width: 680px) {
+            width: 75vw;
+            background-size: 42rem;
+            background-position-x:right;
+
+        }  
+
+
+
+            
+        &--1 {
+            background-image: url(../img/FADEL_1.png);
+            background-clip: inherit;
+            -webkit-background-clip: inherit;
+
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position-y: bottom;
+
+            @media screen and (max-width: 680px) {
+                background-size: 70%;
+                background-position-x: right;
+                
+            }  
+        }
+
+        &--2 {
+            background: #1F1F1F no-repeat;
+            background-position: center;
+            background-size: 80%;
+            background-image: url('../img/CV_FADEL_2020.png');
+    
+        }
+
+
+    }
+
+    &__text-box {
+
+        margin-left: 7.5vw;
+        max-width: 32.5vw;
+
+        @media screen and (max-width: 1024px) {
+            max-width: 70%;
+        }
+
+        @media screen and (max-width: 475px) {
+            margin-left: 0px;
+            max-width: 100%;
+        }
+
+
+        .paragraphe {
+            padding-bottom: 3rem;
+        }
+
+        .text-container {
+
+            padding-top: 3rem;
+            display: flex;
+            flex-direction: column;
+
+            &__box {
+
+                h3 {
+                    padding-bottom: 1rem;
+                }
+                .media {
+                    margin : 15px 0;
+                    display: flex;
+                    align-items: center;
+
+                   &--logo {
+                       margin-right: 3rem;
+                   }
+                }
+            }
+        }
+    
+    }
+
+    &__social {
+        display: flex;
+
+        @media screen and (max-width: 680px) {
+            flex-direction: column;
+        }
+
+    }
+
+    &__social-logo {
+        height: 3.2rem;
+        margin-right: 1rem;
+
+    }
+
+    &__icon-box {
+        width: 73.6rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        padding-top: 8rem;
+        padding-bottom: 16rem;
+    }
+
+    .about {
+
+            padding-bottom: 12.1rem;
+
+            h3 {
+                padding-top: 5.8rem;
+                padding-bottom: 3.4rem;
+            }
+
+            @media screen and (max-width: 680px) {
+                padding-bottom: 6.05rem;
+             }
+     
+
+    
+    }
+
+    .contact {
+            margin-top: 5rem;
+
+            .text-container {
+
+                padding-top: 3rem;
+                display: flex;
+                flex-direction: column;
+
+                &__box {
+
+                    h3 {
+                        padding-bottom: 1rem;
+                    }
+                    .media {
+                        margin : 15px 0;
+                        display: flex;
+                        align-items: center;
+
+                       &--logo {
+                           margin-right: 3rem;
+                       }
+                    }
+                }
+            }
+            
+    }
+
+
+    .button {
+        width: 22.9rem;
+        height: 4.7rem;
+        background: #7A5AF0 0% 0% no-repeat padding-box;
+        border-radius: 3rem;
+        border-color: none;
+        opacity: 0.32;
+        backdrop-filter: blur(39px);
+        -webkit-backdrop-filter: blur(39px);
+        color: #C4C4C4 !important;
+        cursor: pointer;
+        text-decoration: none;
+        font-size: 1.8rem;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img {
+            padding-right:1.3rem ;
+        };
+
+        &:hover {
+        opacity: 1;
+        }
+       
+
+    }
+
+    .btn--1 {
+           
+        position: relative;
+        left: 5.9rem;
+        top: -10rem;
+
+        @media screen and (max-width: 1115px) {
+            left: 3vw;
+            top: 5%;
+        } 
+
+    }
+
+    .btn--2 {
+        width: 50vw;
+        height: 5rem;
+        opacity: 1;
+    }
+
+    .btn--2, .fa {
+
+        display: none;
+        @media screen and (max-width: 680px) {
+           display: inherit;
+           height: 50px;
+        }
+
+
+    }
+}
+
+
+

@@ -1,0 +1,43 @@
+.t-shaped {
+    &__container {
+        padding-top: 9rem;
+
+
+        & :not(:last-child) {
+            margin-bottom: 5rem;
+        }
+    }
+
+    p {
+       
+        width: 27.5vw;
+
+        @media screen and (max-width: 1024px) {
+            width: 53.5vw;
+        }
+
+        @media screen and (max-width: 680px) {
+            width: 80vw;
+
+        }
+
+        @media screen and (max-width: 475px) {
+            width: 90%;
+
+        }
+     
+    }
+
+    .row {
+        @media screen and (max-width: 680px) {
+            display: flex;
+            flex-direction: column;
+
+            & :not(:last-child) {
+                margin-bottom: 3rem;
+            }
+         }
+    }
+}
+
+

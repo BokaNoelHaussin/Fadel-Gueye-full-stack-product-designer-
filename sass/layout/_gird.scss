@@ -1,0 +1,35 @@
+.row {
+
+    display: flex;
+    justify-content: space-between;
+
+    // p {
+    //     max-width: 50rem;
+    // }
+   
+
+    
+    // [class^="col-"] {
+    
+    // }
+
+    .col-1-of-2 {
+        flex: 0 0 45%;
+    }
+    .col-1-of-3 {
+        flex: 0 0 30%;
+    }
+
+    .col-1-of-4 {
+        flex: 0 0 22.5;
+    }
+
+    .col-2-of-3 {
+        flex: 1;
+    }
+
+    .col-2-of-4 {
+        flex: 1;
+    }
+
+}

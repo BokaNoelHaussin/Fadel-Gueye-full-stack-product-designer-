@@ -1,0 +1,187 @@
+
+////// BASE
+*,
+*::after,
+*::before {
+    margin: 0;;
+    padding: 0;
+    // box-sizing: inherit;
+    font-weight: 600; ;
+}
+
+
+html {
+    font-size: 62.5%;
+    @media screen and (max-width: 1440px) {
+        font-size: 48%;
+    }
+
+    @media screen and (max-width: 1280px) {
+        font-size: 43%;
+    }
+
+    @media screen and (max-width: 1024px) {
+        font-size: 46%;
+    }
+
+    @media screen and (max-width: 800px) {
+        font-size: 36%;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 35%;
+    }
+
+    @media screen and (max-width: 767px) {
+        font-size: 30%;
+    }
+
+    @media screen and (max-width: 475px) {
+        font-size: 28%;
+    }
+
+    @media screen and (max-width: 375px) {
+        font-size: 24%;
+    }
+
+    @media screen and (max-width: 325px) {
+        font-size: 21%;
+    }
+
+  
+
+
+}
+
+
+////// TYPOGRAPHY
+
+.heading-primary {
+    font-size: 8rem;
+    letter-spacing: 0.1rem;
+    color: $color-white;
+
+
+    @media screen and (max-width: 475px) {
+        font-size: 7.5rem;
+    }
+
+
+
+
+}
+
+.heading-secondary {
+    font-size: 4rem ;
+    color: $color-secondary;
+
+    @media screen and (max-width: 1024px) {
+        font-size: 5rem;
+        max-width: 85vw;
+        
+    }
+
+    @media screen and (max-width: 680px) {
+        max-width: 80vw; 
+    }
+
+    @media screen and (max-width: 475px) {
+        font-size: 5.2rem;
+    }
+    
+    
+
+    &__white {
+        color: $color-white;
+    }
+
+
+}
+
+// .ml3 {
+//   font-weight: 900;
+//   font-size: 3.5em;
+// }
+
+.heading-terciary {
+    font-size: 2.6rem ;
+      
+    ;
+    color: $color-tertiary;
+
+    &__white {
+        color: $color-white;
+    }
+
+    @media screen and (max-width: 1024px) {
+        font-size: 3.4rem;
+    }
+
+    @media screen and (max-width: 680px) {
+        font-size: 4.8rem;
+    }
+
+}
+
+.paragraphe {
+    font-weight: 200;
+    font-size: 2.2rem;
+    line-height: 25px;
+    color: #94A1B2;
+
+    @media screen and (max-width: 1024px) {
+        font-size: 2.4rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        line-height: 20px;
+    }
+
+    @media screen and (max-width: 475px) {
+        line-height: 15px;
+        font-size: 3.4rem;
+    }
+
+    @media screen and (max-width: 375px) {
+        line-height: 14px;
+        font-size: 3.3rem;
+    }
+
+    @media screen and (max-width: 325px) {
+        line-height: 13px;
+        font-size: 3.2rem;
+    }
+
+  
+  
+
+    &--mini {
+        font-size: 1.8rem ;
+        color: #94A1B2;
+        cursor: pointer;
+
+       &:hover {
+           color: $color-tertiary;
+       }
+
+        @media screen and (max-width: 680px) {
+            font-size: 4rem;
+        }
+
+    }
+}
+
+////// UTILITIES
+
+.u-center-text {display: flex;justify-content: center};
+
+.u-margin-bottom-big {margin-bottom: 8rem !important;}
+
+.u-margin-bottom-small {margin-bottom: 4rem !important;}
+
+.u-margin-top-big { margin-top: 8rem !important;}
+
+.u-margin-top-small { margin-top: 2rem !important;}
+
+.u-margin-top-huge { margin-top: 10rem !important;}
+
