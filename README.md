@@ -6,7 +6,7 @@ Portfolio réalisé en collaboration avec un UX UI designer;
 # Démarrage
 Suivez le lien ci-dessous pour accéder à la version en ligne du site :
 
-https://kind-darwin-35506a.netlify.app/
+https://determined-ptolemy-252fb8.netlify.app/
 
 Suivez le lien ci-dessous pour accéder à la maquette Adobe XD :
 
